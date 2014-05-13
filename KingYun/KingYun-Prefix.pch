@@ -14,3 +14,6 @@
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 #endif
+
+//http://api-content.dfs.kuaipan.cn/1/fileops/download_file?oauth_signature=J9iNs9wP2MItvgVSKZDVwDOtLfE%3D%3D&oauth_consumer_key=xcNZwXroR0jZrImI&oauth_nonce=3033229&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1399882179&oauth_token=03d442ef4c316c4c51967b1d&oauth_version=1.0&path=%2Ftestdemo%2Fmh.jpg&root=app_folder
+//http://api-content.dfs.kuaipan.cn/1/fileops/download_file?oauth_consumer_key=xcNZwXroR0jZrImI&oauth_nonce=8EFFC7A6-EBD1-4DF2-B2FE-C5CC58C26C34&oauth_signature=2ub%2Fa2z5JPY9NZpUJrNQC8oPZ98%3D&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1399881887&oauth_token=03d442ef4c316c4c53b5fd6f&oauth_version=1.0&path=%2Ftestdemo%2Fqb.jpg&root=app_folder

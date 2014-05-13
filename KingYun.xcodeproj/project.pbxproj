@@ -21,6 +21,17 @@
 		4C13AD4A191A848A00E507EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C13AD2C191A848A00E507EF /* UIKit.framework */; };
 		4C13AD52191A848A00E507EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C13AD50191A848A00E507EF /* InfoPlist.strings */; };
 		4C13AD54191A848A00E507EF /* KingYunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C13AD53191A848A00E507EF /* KingYunTests.m */; };
+		4C13AD5F191A8A2100E507EF /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C13AD5E191A8A2100E507EF /* GTMBase64.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4C13AD63191A8EE200E507EF /* NSString+Encode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C13AD62191A8EE200E507EF /* NSString+Encode.m */; };
+		4C13AD67191A921F00E507EF /* AuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C13AD65191A921F00E507EF /* AuthViewController.m */; };
+		F5473BDC191B610600B721DF /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = F5473BD7191B610600B721DF /* TFHpple.m */; };
+		F5473BDD191B610600B721DF /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = F5473BD9191B610600B721DF /* TFHppleElement.m */; };
+		F5473BDE191B610600B721DF /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = F5473BDB191B610600B721DF /* XPathQuery.m */; };
+		F5473BE0191B618900B721DF /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F5473BDF191B618900B721DF /* libxml2.dylib */; };
+		F5473BE2191B628800B721DF /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F5473BE1191B628800B721DF /* libxml2.2.dylib */; };
+		F5473BE4191B8D0C00B721DF /* mh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5473BE3191B8D0C00B721DF /* mh.jpg */; };
+		F5A8C4011920BE3A003F9138 /* PicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A8C4001920BE3A003F9138 /* PicViewController.m */; };
+		F5A8C4031920C515003F9138 /* katana.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A8C4021920C515003F9138 /* katana.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +64,25 @@
 		4C13AD4F191A848A00E507EF /* KingYunTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KingYunTests-Info.plist"; sourceTree = "<group>"; };
 		4C13AD51191A848A00E507EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4C13AD53191A848A00E507EF /* KingYunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KingYunTests.m; sourceTree = "<group>"; };
+		4C13AD5D191A8A2100E507EF /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		4C13AD5E191A8A2100E507EF /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		4C13AD60191A8AD600E507EF /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		4C13AD61191A8EE200E507EF /* NSString+Encode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Encode.h"; sourceTree = "<group>"; };
+		4C13AD62191A8EE200E507EF /* NSString+Encode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Encode.m"; sourceTree = "<group>"; };
+		4C13AD64191A921F00E507EF /* AuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthViewController.h; sourceTree = "<group>"; };
+		4C13AD65191A921F00E507EF /* AuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthViewController.m; sourceTree = "<group>"; };
+		F5473BD6191B610600B721DF /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		F5473BD7191B610600B721DF /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		F5473BD8191B610600B721DF /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		F5473BD9191B610600B721DF /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		F5473BDA191B610600B721DF /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		F5473BDB191B610600B721DF /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		F5473BDF191B618900B721DF /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		F5473BE1191B628800B721DF /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		F5473BE3191B8D0C00B721DF /* mh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mh.jpg; sourceTree = "<group>"; };
+		F5A8C3FF1920BE3A003F9138 /* PicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PicViewController.h; sourceTree = "<group>"; };
+		F5A8C4001920BE3A003F9138 /* PicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicViewController.m; sourceTree = "<group>"; };
+		F5A8C4021920C515003F9138 /* katana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = katana.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +90,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5473BE2191B628800B721DF /* libxml2.2.dylib in Frameworks */,
+				F5473BE0191B618900B721DF /* libxml2.dylib in Frameworks */,
 				4C13AD2B191A848A00E507EF /* CoreGraphics.framework in Frameworks */,
 				4C13AD2D191A848A00E507EF /* UIKit.framework in Frameworks */,
 				4C13AD29191A848A00E507EF /* Foundation.framework in Frameworks */,
@@ -101,6 +133,8 @@
 		4C13AD27191A848A00E507EF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F5473BE1191B628800B721DF /* libxml2.2.dylib */,
+				F5473BDF191B618900B721DF /* libxml2.dylib */,
 				4C13AD28191A848A00E507EF /* Foundation.framework */,
 				4C13AD2A191A848A00E507EF /* CoreGraphics.framework */,
 				4C13AD2C191A848A00E507EF /* UIKit.framework */,
@@ -117,6 +151,23 @@
 				4C13AD3A191A848A00E507EF /* Main.storyboard */,
 				4C13AD3D191A848A00E507EF /* ViewController.h */,
 				4C13AD3E191A848A00E507EF /* ViewController.m */,
+				F5A8C3FF1920BE3A003F9138 /* PicViewController.h */,
+				F5A8C4001920BE3A003F9138 /* PicViewController.m */,
+				4C13AD64191A921F00E507EF /* AuthViewController.h */,
+				4C13AD65191A921F00E507EF /* AuthViewController.m */,
+				4C13AD61191A8EE200E507EF /* NSString+Encode.h */,
+				4C13AD62191A8EE200E507EF /* NSString+Encode.m */,
+				4C13AD5D191A8A2100E507EF /* GTMBase64.h */,
+				4C13AD5E191A8A2100E507EF /* GTMBase64.m */,
+				4C13AD60191A8AD600E507EF /* GTMDefines.h */,
+				F5473BD6191B610600B721DF /* TFHpple.h */,
+				F5473BD7191B610600B721DF /* TFHpple.m */,
+				F5473BD8191B610600B721DF /* TFHppleElement.h */,
+				F5473BD9191B610600B721DF /* TFHppleElement.m */,
+				F5473BDA191B610600B721DF /* XPathQuery.h */,
+				F5A8C4021920C515003F9138 /* katana.png */,
+				F5473BE3191B8D0C00B721DF /* mh.jpg */,
+				F5473BDB191B610600B721DF /* XPathQuery.m */,
 				4C13AD40191A848A00E507EF /* Images.xcassets */,
 				4C13AD2F191A848A00E507EF /* Supporting Files */,
 			);
@@ -199,6 +250,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Cartman;
 				TargetAttributes = {
+					4C13AD24191A848A00E507EF = {
+						DevelopmentTeam = HZ59NGURJ9;
+					};
 					4C13AD45191A848A00E507EF = {
 						TestTargetID = 4C13AD24191A848A00E507EF;
 					};
@@ -229,8 +283,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C13AD41191A848A00E507EF /* Images.xcassets in Resources */,
+				F5473BE4191B8D0C00B721DF /* mh.jpg in Resources */,
 				4C13AD33191A848A00E507EF /* InfoPlist.strings in Resources */,
 				4C13AD3C191A848A00E507EF /* Main.storyboard in Resources */,
+				F5A8C4031920C515003F9138 /* katana.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +305,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5473BDD191B610600B721DF /* TFHppleElement.m in Sources */,
 				4C13AD3F191A848A00E507EF /* ViewController.m in Sources */,
+				4C13AD63191A8EE200E507EF /* NSString+Encode.m in Sources */,
 				4C13AD39191A848A00E507EF /* AppDelegate.m in Sources */,
+				F5473BDE191B610600B721DF /* XPathQuery.m in Sources */,
+				F5A8C4011920BE3A003F9138 /* PicViewController.m in Sources */,
+				F5473BDC191B610600B721DF /* TFHpple.m in Sources */,
 				4C13AD35191A848A00E507EF /* main.m in Sources */,
+				4C13AD67191A921F00E507EF /* AuthViewController.m in Sources */,
+				4C13AD5F191A8A2100E507EF /* GTMBase64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,9 +439,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KingYun/KingYun-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SDK_ROOT}/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = "KingYun/KingYun-Info.plist";
+				LIBRARY_SEARCH_PATHS = /usr/lib/;
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -389,9 +460,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KingYun/KingYun-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SDK_ROOT}/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = "KingYun/KingYun-Info.plist";
+				LIBRARY_SEARCH_PATHS = /usr/lib/;
+				OTHER_LDFLAGS = "-lxml2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -456,6 +535,7 @@
 				4C13AD59191A848A00E507EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C13AD5A191A848A00E507EF /* Build configuration list for PBXNativeTarget "KingYunTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +544,7 @@
 				4C13AD5C191A848A00E507EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
